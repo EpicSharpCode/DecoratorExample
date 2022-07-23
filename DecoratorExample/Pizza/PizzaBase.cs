@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorExample.Pizza
 {
-    internal class PizzaBase : IPizza
+    internal abstract class PizzaBase : IPizza
     {
         public string name;
         public decimal price;

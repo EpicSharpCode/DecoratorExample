@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorExample.Addings
 {
-    internal class AddingDecoratorBase : PizzaBase
+    internal abstract class AddingDecoratorBase : PizzaBase
     {
         PizzaBase pizza;
 
