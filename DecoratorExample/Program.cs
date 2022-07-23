@@ -18,6 +18,12 @@ namespace DecoratorExample
             Console.WriteLine(jalapeno.GetPizzaInfo());
             IPizza cheese = new CheeseAdding(new JalapenoAdding(new Margarita()));
             Console.WriteLine(cheese.GetPizzaInfo());
+            IPizza tooMuchCheese = new CheeseAdding(new CheeseAdding(new FourCheese()));
+            Console.WriteLine(tooMuchCheese.GetPizzaInfo());
+            IPizza tooSpicyPizza = new JalapenoAdding(new JalapenoAdding(new Diablo()));
+            Console.WriteLine(tooSpicyPizza.GetPizzaInfo());
+            IPizza pepperoniMargarita = new PepperoniAdding(new Margarita());
+            Console.WriteLine(pepperoniMargarita.GetPizzaInfo());
 
             Console.ReadKey();
         }

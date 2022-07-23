@@ -46,6 +46,9 @@
     <Compile Include="Addings\AddingDecoratorBase.cs" />
     <Compile Include="Addings\CheeseAdding.cs" />
     <Compile Include="Addings\JalapenoAdding.cs" />
+    <Compile Include="Addings\PepperoniAdding.cs" />
+    <Compile Include="Pizza\Diablo.cs" />
+    <Compile Include="Pizza\FourCheese.cs" />
     <Compile Include="Pizza\IPizza.cs" />
     <Compile Include="Pizza\Margarita.cs" />
     <Compile Include="Pizza\PizzaBase.cs" />

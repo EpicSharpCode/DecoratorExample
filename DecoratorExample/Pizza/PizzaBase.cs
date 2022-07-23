@@ -17,6 +17,6 @@ namespace DecoratorExample.Pizza
 
         public virtual decimal GetPrice() => price;
 
-        public string GetPizzaInfo() => $"Pizza { GetName() } for { GetPrice() }";
+        public string GetPizzaInfo() => $"Pizza \"{GetName()}\" for {GetPrice()} $";
     }
 }
